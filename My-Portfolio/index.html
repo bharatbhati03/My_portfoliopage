@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bharat's portfolio page</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/6036970d4e.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- ------ Navbar section-------- -->
+    <header id="nav-bar" class="header section-p1">
+      <div class="logo">
+        <h3>
+          <a href="#hero-section"><span>B</span>harat.</a>
+        </h3>
+      </div>
+      <div class="nav-links">
+        <ul id="nav-links">
+          <li><a class="active" href="#hero-section">Home</a></li>
+          <li><a href="#about-section">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contacts</a></li>
+
+          <a id="close"><i class="fa-solid fa-xmark"></i></a>
+        </ul>
+      </div>
+      <div id="mobile">
+        <i id="bar" class="fa-solid fa-outdent"></i>
+      </div>
+    </header>
+    <!-- ---------- Hero section ----------- -->
+    <section id="hero-section" class="hero">
+      <div class="hero-contant">
+        <h4>Full Stack Devloper</h4>
+        <h1>Hi, I'm <span>Bharat</span></h1>
+        <h1>Bhati from India</h1>
+      </div>
+      <div class="hero-img">
+        <img src="image/heroImg.JPG" alt="img" />
+      </div>
+    </section>
+    <!-- ---------- About section ----------- -->
+    <section id="about-section" class="section-p1">
+      <div class="about-contant">
+        <div class="about-col-1">
+          <img src="image/photo .jpg" alt="img" />
+        </div>
+        <div class="about-col-2">
+          <h1 class="sub-title">About Me</h1>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error
+            inventore cum possimus, iste quis voluptatem nihil repudiandae, eos
+            suscipit, nemo earum ratione. Ipsam aliquid ullam Lorem ipsum dolor
+            sit, amet consectetur elit. Eos beatae ab qui esse temporibus vel,
+            quas doloremque animi nisi officia totam illo, quaerat aperiam
+            dolore.
+          </p>
+          <div class="tad-title">
+            <p class="links active-link" onclick="opentab('skills')">Skills</p>
+            <p class="links" onclick="opentab('education')">Education</p>
+            <p class="links" onclick="opentab('experience')">Experience</p>
+          </div>
+          <div class="tab-contaneir active-tab" id="skills">
+            <li>
+              <span>Frontend Devloper</span><br />HTML, CSS And JavaScript
+              Devloper
+            </li>
+            <li>
+              <span>Backend Devloper</span><br />NODEJS, Express And SQL
+              Devloper
+            </li>
+          </div>
+          <div class="tab-contaneir" id="education">
+            <li><span>2023</span><br />Full Stack Web Devlopment Course</li>
+            <li><span>2023</span><br />Bachler of Arts From MLSU Udaipur</li>
+            <li><span>2020</span><br />12th From Rajsthan Board</li>
+          </div>
+          <div class="tab-contaneir" id="experience">
+            <li><span>Fresher</span><br />Builded Some Projects</li>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- -------------services section--------------------- -->
+
+    <section id="services">
+      <div class="section-p1">
+        <h1 class="sub-title">My Services</h1>
+        <div class="service-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Frontend Devloper</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi
+              obcaecati, volupta Lorem ipsum, dolor sit amet consectetur
+              adipisicing elit. Culpa provident, deserunt, sapiente repellat
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-crop"></i>
+            <h2>Backend Devloper</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi
+              obcaecati, volupta Lorem ipsum, dolor sit amet consectetur
+              adipisicing elit. Culpa provident, deserunt, sapiente repellat
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-brands fa-app-store-ios"></i>
+            <h2>Full Stack Devloper</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi
+              obcaecati, volupta Lorem ipsum, dolor sit amet consectetur
+              adipisicing elit. Culpa provident, deserunt, sapiente repellat
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- -----------------portfolio------------- -->
+    <section id="portfolio">
+      <div class="section-p1">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="image/work img/mobile app.png" alt="img" />
+            <div class="layer">
+              <h3>Simon Says App</h3>
+              <p>
+                This is a electronic memory game that is based on a classic
+                game. The main objective of the game is to memorize a sequence
+                of tones or colors and then repeat them in the exact same order.
+              </p>
+              <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="image/work img/spotify.png" alt="img" />
+            <div class="layer">
+              <h3>Spotify App</h3>
+              <p>
+                This is a online music web app that is based on a classic modern
+                music. The main objective of this app is provide high Quality
+                music songs
+              </p>
+              <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="image/work img/book app.jpg" alt="img" />
+            <div class="layer">
+              <h3>Online Book App</h3>
+              <p>
+                This is a onlime book App for reading book Anywere & anytime.
+                This app millions of books collections for bulding intrest on
+                Reading books.
+              </p>
+              <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+      </div>
+    </section>
+    <!-- ------------contact me--------------------- -->
+    <section id="contact">
+      <div class="contact-section section-p1">
+        <div class="contact-sec-1">
+          <h1 class="sub-title">Contact Me</h1>
+          <p><i class="fa-solid fa-paper-plane"></i>bhatibharat652@gmail.com</p>
+          <p><i class="fa-solid fa-square-phone"></i>+91-6366575875</p>
+          <div class="icons">
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#"><i class="fa-brands fa-square-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-github"></i></a>
+          </div>
+          <button class="cta">Download CV</button>
+        </div>
+        <div class="contact-sec-2">
+          <form>
+            <input type="text" placeholder="Your name" required />
+            <input type="email" placeholder="Your email" required />
+            <textarea
+              name="Message"
+              rows="6"
+              placeholder="Your message"
+            ></textarea>
+            <button type="submit" class="cta">Submit</button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <div class="copyright">
+      <p>Copyright © 2023 - www.bharatbhati/portfolio.com</p>
+    </div>
+    <script>
+      var tablinks = document.getElementsByClassName("links");
+      var tabConts = document.getElementsByClassName("tab-contaneir");
+
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabCont of tabConts) {
+          tabCont.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+    <script src="app.js"></script>
+  </body>
+</html>
